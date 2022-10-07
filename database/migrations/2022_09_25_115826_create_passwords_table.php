@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('password');
             $table->string('description')->nullable();
             $table->timestamps();
+
         });
     }
     /**
